@@ -1,0 +1,14 @@
+Goal:
+Implement performance API test automation for POST /checkout.
+
+Context:
+- The API spec for POST /checkout is on the swagger.yaml file
+- There are already functional API test automation for POST /checkout under the folder test.
+- README.md file already has data about registered users.
+
+Rules:
+- Create test cases for the main flow of each operation, only performance tests
+- Use Javascript and K6 (K6 is already installed)
+- Tests should be placed under the folder with the same name of the endpoint under the foder k6
+- Use fixtures and isolate the test data.
+- Create a helper function to login and get the JWT token.

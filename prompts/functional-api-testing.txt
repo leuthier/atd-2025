@@ -1,0 +1,14 @@
+Goal:
+Implement functional API test automation for POST /checkout.
+
+Context:
+- The API spec for POST /checkout is on the swagger.yaml file
+- Rules for the Checkout are into the Jira Ticket ATD-12 under juliodelima.atlassian.net 
+- README.md file already has data about registered users and products.
+
+Rules:
+- Create test cases for the main flow of each operation, only functional tests
+- Use Javascript, Mocha, Supertest and Chai
+- Tests should be placed under the folder with the same name of the endpoint under the foder test
+- Use fixtures and isolate the test data.
+- Create a helper function to login and get the JWT token.
